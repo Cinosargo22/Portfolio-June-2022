@@ -1,0 +1,28 @@
+body {
+    background-image: url('../css/images/tokyo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-size: 40px;
+}
+.box-one {
+    background-color: none;
+    border: 0px;
+}
+.box-two {
+    background-color: none;
+    border: 0px;
+}
+.box-three {
+    background-color: none;
+    border: 0px;
+}
+.box-four {
+    background-color: none;
+    border: 0px;
+}
