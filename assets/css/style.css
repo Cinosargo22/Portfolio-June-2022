@@ -1,7 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0%;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;box-shadow: 0 0 0px white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
 body {
     background-image: url('../css/images/tokyo.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    border-color: white;
+    align-items: center; 
+    top: 30%;
+    right: 10%;
+}
+.headings{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid wheat;
+    color: wheat;
+    outline: aqua;
+    outline: 2px;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: wheat;
+    color: black;
+    box box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
